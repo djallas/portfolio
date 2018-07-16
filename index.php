@@ -1,4 +1,27 @@
-<?php include('inc/head.php')?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gilles Kagarama - Software Developer - UI/UX</title>
+        <meta name="description" content="UI/UX">
+        <meta name="robots" content="all">
+        <meta name="expires" content="5 hours">
+        <meta name="keywords" content="Front End Developer">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="icon" href="" type="image/gif" sizes="16x16"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/extra.1.0.4.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/theme.1.0.4.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/music.1.0.4.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/fonts.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Dosis|Ubuntu" rel="stylesheet"> 
+    </head>
+<body class="white">
+
+
+
   <div class="row">
     <div class="col s12 m12 l12" style="margin-top:25px">
       <!-- <a href="#" class="black-text bold xl-text m-padding left"><span class="icon-menu"></span></a> -->
@@ -92,6 +115,7 @@
                   <li class="collection-item  transparent black-text l-text"> Ionic</li>
                   <li class="collection-item  transparent black-text l-text"> Adobe Phonegap</li>
                   <li class="collection-item  transparent black-text l-text"> Capacitor</li>
+                  <li class="collection-item  transparent black-text l-text"> Electron</li>
                   <li class="collection-item  transparent black-text l-text"> XML, Json, AJAX, cURL</li>
                 </ul>
               </li>              
@@ -123,12 +147,14 @@
     <!-- <div class="valign-wrapper nm np"> -->
       <div class="col l12 nm np"  style="margin:0!important">
         <div class="col l6  nm np white-text ">
-          <div class="col l8 push-l4 right-align l-text">
-              <b class="xl-text bold">Jennifer Fog(from Facebook) <br>and I   sharing experience<br> and explaining developers at KLab in a presentation Session of how Internet.org, a facebook project, works. </b><br>
+          <div class="col l8 push-l5 white right-align l-text z-depth-5" style="margin-top:85px;transform: rotate(-8deg);">
+            <div class="xl-padding">
+              <b class="xl-text bold black-text">Jennifer Fog(from Facebook) <br>and I   sharing experience<br> and explaining developers at KLab in a presentation Session of how Internet.org works. , a facebook project</b><br>
+            </div>
           </div>
         </div>
-        <div class="col l6 nm np" style="padding:0!important;margin:0!important">            
-        <img src="images/me.jpg" class="responsive-img green z-depth-3">
+        <div class="col l6 nm" style="padding:4px 0 0 0!important;margin:0!important">            
+        <img src="images/me.jpg" class="responsive-img z-depth-3">
         </div>
       </div>
     <!-- </div> -->
@@ -275,4 +301,11 @@
     </div>
   </div>
 </div>
-<?php include('inc/footer.php')?>
+<script>
+    $(document).ready(function(){
+      $('.parallax').parallax();
+      $('.scrollspy').scrollSpy();
+    });
+</script>
+</body>
+</html>
